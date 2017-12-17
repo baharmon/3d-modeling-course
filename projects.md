@@ -7,30 +7,17 @@ Hargrove House, Kaufman Boulder House, Bailleres House,
 Hennesey House, or Stillman House -
 and its landscape.
 
-|
+Jester House 1938 | Morris House 1945
 :-------------------------:|:-------------------------:
-<img src="images/bailleres_1.jpg" height="250">  |  <img src="images/boulder.jpg" height="250">
-<img src="images/galesburg.jpg" height="250"> | <img src="images/hargrove_1.jpg" height="250">
+<img src="images/jester.jpg" height="250"> | <img src="images/morris_landscape.jpg" height="250">
 
-Bailleres House | Boulder House
+Hargove House 1950 | Boulder House 1950
 :-------------------------:|:-------------------------:
-<img src="images/bailleres_1.jpg" height="250">  |  <img src="images/boulder.jpg" height="250">
+<img src="images/hargrove_1.jpg" height="250"> | <img src="images/boulder.jpg" height="250">
 
-Galesburg | Hargove House
+Bailleres House 1952  | Hennesey House 1956
 :-------------------------:|:-------------------------:
-<img src="images/galesburg.jpg" height="250"> | <img src="images/hargrove_1.jpg" height="250">
-
-
-<p align="center">
-  <img src="images/bailleres_1.jpg" height="250">
-  <img src="images/boulder.jpg" height="250">
-</p>
-
-<p align="center">
-  <img src="images/galesburg.jpg" height="250">
-  <img src="images/hargrove_1.jpg" height="250">
-</p>
-
+<img src="images/bailleres_1.jpg" height="250"> | <img src="images/hennesey.jpg" height="250">
 
 Upload digital copies of your finished work to the class network drive
 at `\\desn-knox.lsu.edu\Landscape-Classes` on Windows
