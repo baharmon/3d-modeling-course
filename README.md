@@ -1,4 +1,4 @@
-# 3D modeling for landscape architects
+# Landscape Representation: Frank Lloyd Wright's Unbuilt Houses
 Online, open educational materials for this landscape architecture course
 
 # License
