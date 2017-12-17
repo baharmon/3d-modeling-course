@@ -24,7 +24,7 @@ models and renderings at the end of the course.
 There will be an optional fieldtrip to New York City
 to view the Frank Lloyd Wright Collection
 at Columbia's Avery Architectural and Fine Arts Library
-led by Prof.~Desmond.
+led by Prof. Desmond.
 
 **Assignments** | [Projects](projects.md)
 
@@ -59,19 +59,6 @@ led by Prof.~Desmond.
 7. [**Billboards**](billboards.md)
 8. [**Photomontage**](photomontage.md)
 ---
-
-
-\item Seminar
-\item 2D-3D drafting
-\item Solid modeling
-\item Surface modeling
-\item Data acquisition
-\item Terrain modeling
-\item 3D rendering
-\item Section-elevations
-\item 3D printing
-\item Billboard trees
-\item Photomontage
 
 ## License
 Open educational materials licensed CC BY-SA 4.0 by Brendan Harmon :monkey_face:. The license does not apply to logos, fonts, linked material, quotations, or reprinted images by other authors, which may have different licenses. The fonts used in this repository are licensed under the SIL Open Font License by their authors. The syllabus is based on a latex template by Kieran Healy hosted at https://github.com/kjhealy/latex-custom-kjh.
