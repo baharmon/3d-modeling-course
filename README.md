@@ -2,7 +2,7 @@
 
 # Landscape Representation: Frank Lloyd Wright's Unbuilt Houses
 
-<p align="center"><img src="images/morris.jpg" height="500"></p>
+<p align="center"><img src="images/morris.jpg" height="750"></p>
 
 This course is an introduction to 3D modeling for landscape architects.
 In this course you will develop a solid foundation in 3D modeling
