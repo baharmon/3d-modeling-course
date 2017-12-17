@@ -4,6 +4,7 @@
 
 <p align="center"><img src="images/morris.jpg" height="750"></p>
 
+**Course description** |
 This course is an introduction to 3D modeling for landscape architects.
 In this course you will develop a solid foundation in 3D modeling
 by building a detailed digital model of one of
@@ -21,6 +22,7 @@ You will work in small teams and
 will present an exhibition and a booklet of your
 models and renderings at the end of the course.
 
+**Fieldtrip** |
 There will be an optional fieldtrip to New York City
 to view the Frank Lloyd Wright Collection
 at Columbia's Avery Architectural and Fine Arts Library
