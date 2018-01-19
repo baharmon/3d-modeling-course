@@ -41,6 +41,8 @@ The renderings should include:
 * 4 section-elevations
 * 4 perspectives.
 
+**Due:** 
+
 ## 3D Prints
 Each group will make a beautiful 3D printed model
 of their building and its topography.
@@ -59,6 +61,7 @@ your 3D renderings, and photos of your 3D prints.
 Each group will create a display for
 an exhibition of the unbuilt houses.
 Each display should include
+a map,
 plots of your 3D renderings,
 your 3D prints, and
 information about the house.
