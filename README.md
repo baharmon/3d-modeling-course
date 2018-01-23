@@ -2,7 +2,7 @@
 
 # Landscape Representation: Frank Lloyd Wright's Unbuilt Houses
 
-<p align="center"><img src="images/morris.jpg" height="750"></p>
+<p align="center"><img src="images/wright/morris.jpg" height="750"></p>
 
 **Course description**
 This course is an introduction to 3D modeling for landscape architects.
@@ -52,11 +52,12 @@ led by Prof. Desmond.
 
 ---
 ## Contents
-1. [**Solid modeling**](solid-modeling.md)
-2. [**Surface modeling**](surface-modeling.md)
-3. [**Terrain modeling**](terrain-modeling.md)
+
+1. [**Terrain modeling**](terrain-modeling.md)
     1. [Elevation data sources](terrain-modeling.md#elevation-data-sources)
     2. [3D terrain modeling](terrain-modeling.md#3d-terrain-modeling)
+2. [**Solid modeling**](solid-modeling.md)
+3. [**Surface modeling**](surface-modeling.md)
 4. [**3D rendering**](3d-rendering.md)
 5. [**Section-elevations**](section-elevations.md)
 6. [**3D printing**](3d-printing.md)
