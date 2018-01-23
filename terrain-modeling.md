@@ -4,17 +4,16 @@
     2. [3D terrain modeling](#3d-terrain-modeling)
 
 # Terrain modeling
-In this section you will
-process lidar data,
-model the point cloud as a digital elevation model, and
-analyze topographic parameters including
-contours, slope, hillshading, and landforms.
+In this section you will learn how to
+acquire elevation data,
+re-project and process the data in GIS,
+and then model the data as
+3D meshes and surfaces in Rhino.
 
 ## Elevation data sources
 * [National Map Viewer](http://nationalmap.gov/viewer.html)
 * [US Interagency Elevation Inventory](https://coast.noaa.gov/inventory/)
 * [Open Topography](http://www.opentopography.org/)
-* [NC Spatial Data Download](https://sdd.nc.gov/sdd/)
 
 ## 3D terrain modeling
 In this section you will export
