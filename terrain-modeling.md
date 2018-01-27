@@ -2,7 +2,7 @@
 1. [**Terrain modeling**](#terrain-modeling)
     1. [Elevation data sources](#elevation-data-sources)
     2. [3D terrain modeling](#3d-terrain-modeling)
-    3. [2D terrain modeling] (#2d-terrain-modeling)
+    3. [2D terrain modeling](#2d-terrain-modeling)
 
 # Terrain modeling
 In this section you will learn how to
@@ -16,15 +16,15 @@ and then model the data as
 * [US Interagency Elevation Inventory](https://coast.noaa.gov/inventory/)
 * [Open Topography](http://www.opentopography.org/)
 
-__test for new tutorial__
+
 ## 2D terrain modeling
 In this section you will download
 a digital elevation file from USGS National Maps
 and import it into Arc Map to create elevation and slope maps.
-__end of test__ 
+
+_instructions for lectures on January 24 and 26 under development_
 
 ## 3D terrain modeling
-
 In this section you will export
 a digital elevation model from GRASS GIS
 and import it into Rhino for 3D modeling and visualization.
