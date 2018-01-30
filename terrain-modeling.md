@@ -31,41 +31,39 @@ Navigate to the [National Map Viewer](https://viewer.nationalmap.gov/basic/).
 
 Search for Baton Rouge, Louisiana and zoom to the area of study.
 
-Check the 'box/point' selection tool and use it to draw a box around your study  
+Check the `box/point` selection tool and use it to draw a box around your study  
 area. The searches you will run will look for data in this area.
 
-Select 'Elevation Products (3DEP)' under Data in your left-hand menu.
+Select `Elevation Products (3DEP)` under _Data_ in your left-hand Dataset menu.
 
-Check the boxes for [1 meter DEM and 1/9 arc-second DEM](https://nationalmap.gov/3dep_prodserv.html) and click Find Products.
+Check the boxes for [1 meter DEM and 1/9 arc-second DEM](https://nationalmap.gov/3dep_prodserv.html) and click `Find Products`.
 
-Your data will appear in the left hand search panel. Click the 'Footprint' link
+Your data will appear in the left hand search panel. Click the `Footprint` link
 next to the data see its footprint. _You can always deselect by
 clicking footprint again_
 
-Click the download link next to each piece of data you wish to download. For this exercise, download:
-USGS NED ned19_n30x75_w091x25_la_statewide_2006 1/9 arc-second 2009 15x 15
+Click the `download` link next to each piece of data you wish to download. For this exercise, download:
+``USGS NED ned19_n30x75_w091x25_la_statewide_2006 1/9 arc-second 2009 15x 15
 minute IMG and
 USGS NED ned19_n30x50_w091x00_la_statewide_2006 1/9 arc-second 2009 15x 15
-minute IMG.
+minute IMG.``
 
 Find your zipped file folders for this data in your downloads folder.
 
-Select one of your data folders, right click > 7-zip > Extract to the folder of your
-choice. _Suggested to save in your user folder. Windows C: drive > Users >
+Extract your data. Select one of your data folders, `right click > 7-zip > Extract to the folder of your choice.` _Suggested to save in your user folder. Windows C: drive > Users >
 find your username._ Repeat this step for the second folder.
 
 Delete the original zipped folders.
 
 Start ARC CATALOG.
 
-Click 'Connect to Folder' button.
+Click `Connect to Folder` button.
 
 Browse to your username.
 
 Create a new folder for this data.
 
 Right click in or on new folder > New > File Geodatabase > baton_rouge.gdb
-
 
 
 
