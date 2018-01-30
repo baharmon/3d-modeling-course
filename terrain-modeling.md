@@ -25,7 +25,7 @@ _instructions for lectures on January 24 and 26 under development_
 
 ### Finding and Projecting Data
 __This lesson uses data from the National Map. You can find data from other
-sources, see the links above*__
+sources, see the links above__
 
 Navigate to the [National Map Viewer](https://viewer.nationalmap.gov/basic/).
 
