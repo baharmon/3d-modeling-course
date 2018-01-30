@@ -26,16 +26,21 @@ _instructions for lectures on January 24 and 26 under development_
 ### Finding and Projecting Data
 __This lesson uses data from the National Map. You can find data from other
 sources, see the links above*__
+
 Navigate to the [National Map Viewer](https://viewer.nationalmap.gov/basic/).
+
 Search for Baton Rouge, Louisiana and zoom to the area of study.
+
 Check the 'box/point' selection tool and use it to draw a box around your study  
 area. The searches you will run will look for data in this area.
 Select 'Elevation Products (3DEP)' under Data in your left-hand menu.
+
 Check the boxes for [1 meter DEM and 1/9 arc-second DEM](https://nationalmap.gov/3dep_prodserv.html) and click Find Products.
+
 Your data will appear in the left hand search pane. Click the Footprint link
 next to see the footprint of this data tile. _You can always deselect by
-
 clicking footprint again_
+
 Click the download link next to each piece of data you wish to download.
 
 For this exercise, download:
