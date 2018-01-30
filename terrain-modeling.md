@@ -25,7 +25,7 @@ _instructions for lectures on January 24 and 26 under development_
 
 ### Finding and Projecting Data
 __This lesson uses data from the National Map. You can find data from other
-sources, see the links above.__
+sources, such as the links above.__
 
 Navigate to the [National Map Viewer](https://viewer.nationalmap.gov/basic/).
 
@@ -45,10 +45,8 @@ clicking footprint again_
 Click the `download` link next to each piece of data you wish to download. For this exercise, download:
 
 ```
-USGS NED ned19_n30x75_w091x25_la_statewide_2006 1/9 arc-second 2009 15x 15
-minute IMG and
-USGS NED ned19_n30x50_w091x00_la_statewide_2006 1/9 arc-second 2009 15x 15
-minute IMG.
+USGS NED ned19_n30x75_w091x25_la_statewide_2006 1/9 arc-second 2009 15x 15 minute IMG and
+USGS NED ned19_n30x50_w091x00_la_statewide_2006 1/9 arc-second 2009 15x 15 minute IMG.
 ```
 
 Find your zipped file folders for this data in your downloads folder.
