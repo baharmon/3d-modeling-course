@@ -43,11 +43,13 @@ next to the data see its footprint. _You can always deselect by
 clicking footprint again_
 
 Click the `download` link next to each piece of data you wish to download. For this exercise, download:
+
 ```
 USGS NED ned19_n30x75_w091x25_la_statewide_2006 1/9 arc-second 2009 15x 15
 minute IMG and
 USGS NED ned19_n30x50_w091x00_la_statewide_2006 1/9 arc-second 2009 15x 15
-minute IMG.```
+minute IMG.
+```
 
 Find your zipped file folders for this data in your downloads folder.
 
@@ -58,11 +60,7 @@ Delete the original zipped folders.
 
 Start ARC CATALOG.
 
-Click `Connect to Folder` button.
-
-Browse to your username.
-
-Create a new folder for this data.
+Click `Connect to Folder` button. Browse to your username. Create a new folder for this data.
 
 Right click in or on new folder > New > File Geodatabase > baton_rouge.gdb
 
