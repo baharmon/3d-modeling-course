@@ -86,9 +86,16 @@ Geoprocessing > Geoprocessing Options > Disable or uncheck Background Processing
 Customize > Extensions > Check Spatial Analyst
 ```
 
-Click `Add New Data` button and browse to your downloads.
+1. Click `Add New Data` button and browse to your downloads.
 
-Select the .img file from your dataset > Add.
+2. Select the .img file from your dataset > Add.
+
+3. A dialogue box will appear. Select `Bilinear Interpolation` in the drop down menu > `Yes` (_Bilinear Interpolation is for continuous data like topographic maps. Nearest Neighbor is for discrete data_)
+
+Repeat steps 1-3 for the other dataset you downloaded from the National Map.
+
+
+
 
 ## 3D terrain modeling
 In this section you will export
