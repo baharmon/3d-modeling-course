@@ -23,7 +23,7 @@ a digital elevation file from USGS National Maps
 and import it into Arc Map to create elevation and slope maps.
 _instructions for lectures on January 24 and 26 under development_
 
-### Finding and Projecting Data
+### Finding and Downloading Data
 __This lesson uses data from the National Map. You can find data from other
 sources, such as the links above.__
 
@@ -58,11 +58,15 @@ find your username._ Repeat this step for the second folder.
 
 Delete the original zipped folders.
 
+###Create a Geodatabase for Your Project
+
 Start ARC CATALOG.
 
-Click `Connect to Folder` button. Browse to your username. Create a new folder for this data.
+Click `Connect to Folder` button:
 
 ![alt text](https://github.com/baharmon/3d-modeling-course/blob/master/images/arcmap/Lecture%201/arccatalog_connect_to_folder.png)
+
+Browse to your username. Create a new folder for this data. (_Option to connect to your downloads folder here as well to navigate easily to your files you downloaded_)
 
 Right click in or on new folder > New > File Geodatabase > name your file `baton_rouge.gdb`
 
