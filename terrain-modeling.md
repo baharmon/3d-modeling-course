@@ -96,9 +96,11 @@ Customize > Extensions > Check Spatial Analyst
 Repeat steps 1-3 for the other dataset you downloaded from the National Map.
 
 Click the `Toolbox` button:
+![alt text](https://github.com/baharmon/3d-modeling-course/blob/master/images/arcmap/Lecture%201/toolbox%20icon.PNG)
 
 You will see your Toolbox pop up:
-![alt text](https://github.com/baharmon/3d-modeling-course/blob/master/images/arcmap/Lecture%201/toolbox%20icon.PNG)
+
+![alt text](https://github.com/baharmon/3d-modeling-course/blob/master/images/arcmap/Lecture%201/toolbox.PNG)
 
 Dock your Toolbox by clicking the Toolbox window and hovering over one of the blue buttons that appear to snap to your workspace.
 
@@ -107,7 +109,7 @@ Dock your Toolbox by clicking the Toolbox window and hovering over one of the bl
 Toolbox Data Management > Projections and Transformations > Raster > Project Raster
 ```
 
-... _remainder of this section is under development_ 
+... _remainder of this section is under development_
 
 ## 3D terrain modeling
 In this section you will export
