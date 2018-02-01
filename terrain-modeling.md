@@ -70,7 +70,7 @@ Browse to your username. Create a new folder for this data. (_Option to connect 
 
 Right click in or on new folder > New > File Geodatabase > name your file `baton_rouge.gdb`
 
-
+![alt test](https://github.com/baharmon/3d-modeling-course/blob/master/images/arcmap/Lecture%201/create_geodatabase.png)
 
 ## 3D terrain modeling
 In this section you will export
