@@ -58,7 +58,7 @@ find your username._ Repeat this step for the second folder.
 
 Delete the original zipped folders.
 
-###Create a Geodatabase for Your Project
+### Creating a Geodatabase for Your Project
 
 Start ARC CATALOG.
 
