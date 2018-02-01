@@ -74,7 +74,7 @@ Right click in or on new folder > New > File Geodatabase:
 
 Name your file `baton_rouge.gdb`
 
-### Projecting Datasets
+### Import Data
 
 Launch ARC MAP.
 
@@ -82,7 +82,7 @@ Open a new blank map.
 
 Check your map settings.
 ```
-Geoprocessing > Geoprocessing Options > Disable or uncheck Background Processing
+Geoprocessing > Geoprocessing Options > Check the first two optionsand  Disable or uncheck Background Processing
 Customize > Extensions > Check Spatial Analyst
 ```
 
@@ -90,12 +90,22 @@ Customize > Extensions > Check Spatial Analyst
 
 2. Select the .img file from your dataset > Add.
 
-3. A dialogue box will appear. Select `Bilinear Interpolation` in the drop down menu > `Yes` (_Bilinear Interpolation is for continuous data like topographic maps. Nearest Neighbor is for discrete data_)
+3. A dialogue box will appear. Select `Bilinear Interpolation` in the drop down menu > `Yes`
+(_Bilinear Interpolation is for continuous data like topographic maps. Nearest Neighbor is for discrete data_)
 
 Repeat steps 1-3 for the other dataset you downloaded from the National Map.
 
+Click the `Toolbox` button:
 
+You will see your Toolbox pop up:
+![alt text](https://github.com/baharmon/3d-modeling-course/blob/master/images/arcmap/Lecture%201/toolbox%20icon.PNG)
 
+Dock your Toolbox by clicking the Toolbox window and hovering over one of the blue buttons that appear to snap to your workspace.
+
+### Reproject the Dataset
+```
+Toolbox Data Management > Projections and Transformations > Raster > Project Raster
+```
 
 ## 3D terrain modeling
 In this section you will export
