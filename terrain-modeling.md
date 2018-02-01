@@ -29,12 +29,14 @@ sources, such as the links above.__
 
 Navigate to the [National Map Viewer](https://viewer.nationalmap.gov/basic/).
 
-Search for Baton Rouge, Louisiana and zoom to the area of study.
+![alt text] (C:\Users\betsy\Documents\Github\3d-modeling-course\images\betsy-tutorials\Lecture 1_National_map_1)
 
-Check the `box/point` selection tool and use it to draw a box around your study  
+1. Search for Baton Rouge, Louisiana and zoom to the area of study.
+
+2. Check the `box/point` selection tool and use it to draw a box around your study  
 area. The searches you will run will look for data in this area.
 
-Select `Elevation Products (3DEP)` under _Data_ in your left-hand Dataset menu.
+3. Select `Elevation Products (3DEP)` under _Data_ in your left-hand Dataset menu.
 
 Check the boxes for [1 meter DEM and 1/9 arc-second DEM](https://nationalmap.gov/3dep_prodserv.html) and click `Find Products`.
 
