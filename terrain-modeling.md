@@ -107,6 +107,8 @@ Dock your Toolbox by clicking the Toolbox window and hovering over one of the bl
 Toolbox Data Management > Projections and Transformations > Raster > Project Raster
 ```
 
+... _remainder of this section is under development_ 
+
 ## 3D terrain modeling
 In this section you will export
 a digital elevation model from GRASS GIS
