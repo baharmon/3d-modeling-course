@@ -29,7 +29,7 @@ sources, such as the links above.__
 
 Navigate to the [National Map Viewer](https://viewer.nationalmap.gov/basic/).
 
-![alt text](https://github.com/baharmon/3d-modeling-course/blob/master/images/betsy-tutorials/Lecture%201/National_map_1.png "National Map")
+![alt text](https://github.com/baharmon/3d-modeling-course/blob/master/images/arcmap/Lecture%201/National_map_1.png "National Map")
 
 1. Search for Baton Rouge, Louisiana and zoom to the area of study.
 
@@ -38,10 +38,10 @@ area. The searches you will run will look for data in this area.
 
 3. Select `Elevation Products (3DEP)` under _Data_ in your left-hand Dataset menu.
 
-Check the boxes for [1 meter DEM and 1/9 arc-second DEM](https://nationalmap.gov/3dep_prodserv.html) and click `Find Products`.
+Under `Elevation Products (3DEP)`, check the boxes for [1 meter DEM and 1/9 arc-second DEM](https://nationalmap.gov/3dep_prodserv.html) and click `Find Products`.
 
 Your data will appear in the left hand search panel. Click the `Footprint` link
-next to the data see its footprint. _You can always deselect by
+next to the data see its footprint on the map. _You can always deselect by
 clicking footprint again_
 
 Click the `download` link next to each piece of data you wish to download. For this exercise, download:
@@ -62,7 +62,9 @@ Start ARC CATALOG.
 
 Click `Connect to Folder` button. Browse to your username. Create a new folder for this data.
 
-Right click in or on new folder > New > File Geodatabase > baton_rouge.gdb
+![alt text](https://github.com/baharmon/3d-modeling-course/blob/master/images/arcmap/Lecture%201/arccatalog_connect_to_folder.png)
+
+Right click in or on new folder > New > File Geodatabase > name your file `baton_rouge.gdb`
 
 
 
