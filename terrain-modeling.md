@@ -29,7 +29,7 @@ sources, such as the links above.__
 
 Navigate to the [National Map Viewer](https://viewer.nationalmap.gov/basic/).
 
-![alt text] (C:\Users\betsy\Documents\Github\3d-modeling-course\images\betsy-tutorials\Lecture 1_National_map_1.png "National Map")
+![alt text] (https://github.com/baharmon/3d-modeling-course/blob/master/images/betsy-tutorials/Lecture%201/National_map_1.png "National Map")
 
 1. Search for Baton Rouge, Louisiana and zoom to the area of study.
 
