@@ -68,9 +68,27 @@ Click `Connect to Folder` button:
 
 Browse to your username. Create a new folder for this data. (_Option to connect to your downloads folder here as well to navigate easily to your files you downloaded_)
 
-Right click in or on new folder > New > File Geodatabase > name your file `baton_rouge.gdb`
+Right click in or on new folder > New > File Geodatabase:
 
 ![alt test](https://github.com/baharmon/3d-modeling-course/blob/master/images/arcmap/Lecture%201/create_geodatabase.png)
+
+Name your file `baton_rouge.gdb`
+
+### Projecting Datasets
+
+Launch ARC MAP.
+
+Open a new blank map.
+
+Check your map settings.
+```
+Geoprocessing > Geoprocessing Options > Disable or uncheck Background Processing
+Customize > Extensions > Check Spatial Analyst
+```
+
+Click `Add New Data` button and browse to your downloads.
+
+Select the .img file from your dataset > Add.
 
 ## 3D terrain modeling
 In this section you will export
