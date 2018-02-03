@@ -106,8 +106,51 @@ Dock your Toolbox by clicking the Toolbox window and hovering over one of the bl
 
 ### Reproject the Dataset
 ```
-Toolbox Data Management > Projections and Transformations > Raster > Project Raster
+Toolbox Data Management > Projections and Transformations > Raster > Project
 ```
+![alt text](https://github.com/baharmon/3d-modeling-course/blob/master/images/arcmap/Lecture%201/getting%20to%20raster%20projection.PNG)
+
+Select your data to reproject.
+
+Name your file `reprojected_ned_1`.
+
+Save your file to your Geodatabase.
+
+```
+Projected Coordinate Systems > State Plan > NAD 1983 (US Feet) > NAD 1983 State Plan Louisiana North FIPS 1701 (US Feet)
+```
+
+Click `Add to Favorites` before clicking `OK`.
+
+`Resampling Technique` > `BILINEAR` > `OK`
+
+Repeat these steps for other set of data.
+
+Once completed delete original 'ned' data you downloaded.
+
+### Combine via Mosaic
+
+```
+Toolbox > Raster > Raster Dataset > Mosaic To New Raster
+```
+
+Select both data sets.
+
+`Output Location` find your geodatabase.
+
+Name your file.
+
+Select projection `NAD_1983`.
+
+Pixel Type: 32_BIT_FLOAT
+
+Cellsize: 10
+
+Number of Bands: 1
+
+`OK`
+
+Delete older layers since you've now combined them as one mosaic. Right click on layer title in your layers box > Delete.
 
 ... _remainder of this section is under development_
 
