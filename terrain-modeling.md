@@ -87,6 +87,8 @@ Geoprocessing > Geoprocessing Options > Check the first two optionsand  Disable 
 Customize > Extensions > Check Spatial Analyst
 ```
 
+![alt text](https://github.com/baharmon/3d-modeling-course/blob/master/images/arcmap/Lecture%201/set%20up%20for%20arc%20catalog.PNG)
+
 1. Click `Add New Data` button and browse to your downloads.
 
 2. Select the .img file from your dataset > Add.
@@ -119,6 +121,7 @@ Name your file `reprojected_ned_1`.
 
 Save your file to your Geodatabase.
 
+Set your Projection.
 ```
 Projected Coordinate Systems > State Plan > NAD 1983 (US Feet) > NAD 1983 State Plan Louisiana North FIPS 1701 (US Feet)
 ```
