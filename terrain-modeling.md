@@ -84,10 +84,13 @@ Open a new blank map.
 Check your map settings.
 ```
 Geoprocessing > Geoprocessing Options > Check the first two optionsand  Disable or uncheck Background Processing
-Customize > Extensions > Check Spatial Analyst
 ```
 
 ![alt text](https://github.com/baharmon/3d-modeling-course/blob/master/images/arcmap/Lecture%201/set%20up%20for%20arc%20catalog.PNG)
+
+```
+Customize > Extensions > Check Spatial Analyst
+```
 
 1. Click `Add New Data` button and browse to your downloads.
 
@@ -125,6 +128,7 @@ Set your Projection.
 ```
 Projected Coordinate Systems > State Plan > NAD 1983 (US Feet) > NAD 1983 State Plan Louisiana North FIPS 1701 (US Feet)
 ```
+![alt text](https://github.com/baharmon/3d-modeling-course/blob/master/images/arcmap/Lecture%201/datum.PNG)
 
 Click `Add to Favorites` before clicking `OK`.
 
