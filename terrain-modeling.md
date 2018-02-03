@@ -91,6 +91,8 @@ Customize > Extensions > Check Spatial Analyst
 
 2. Select the .img file from your dataset > Add.
 
+![alt text](https://github.com/baharmon/3d-modeling-course/blob/master/images/arcmap/Lecture%201/add_img_data.PNG)
+
 3. A dialogue box will appear. Select `Bilinear Interpolation` in the drop down menu > `Yes`
 (_Bilinear Interpolation is for continuous data like topographic maps. Nearest Neighbor is for discrete data_)
 
