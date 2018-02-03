@@ -66,7 +66,8 @@ Click `Connect to Folder` button:
 
 ![alt text](https://github.com/baharmon/3d-modeling-course/blob/master/images/arcmap/Lecture%201/arccatalog_connect_to_folder.png)
 
-Browse to your username. Create a new folder for this data. (_Option to connect to your downloads folder here as well to navigate easily to your files you downloaded_)
+Browse to your username. Create a new folder for this data. Name it arcgis_data
+(_Option to repeat this step and connect to your downloads folder here so you can navigate easily to your files you downloaded_)
 
 Right click in or on new folder > New > File Geodatabase:
 
