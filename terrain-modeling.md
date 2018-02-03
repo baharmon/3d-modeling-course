@@ -128,7 +128,6 @@ Set your Projection.
 ```
 Projected Coordinate Systems > State Plan > NAD 1983 (US Feet) > NAD 1983 State Plan Louisiana North FIPS 1701 (US Feet)
 ```
-![alt text](https://github.com/baharmon/3d-modeling-course/blob/master/images/arcmap/Lecture%201/datum.PNG)
 
 Click `Add to Favorites` before clicking `OK`.
 
