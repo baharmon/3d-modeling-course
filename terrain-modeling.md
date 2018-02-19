@@ -182,7 +182,7 @@ Display Tab > Bilinear Interpolation (for continuous data) > OK``
 
 To add definition to your elevation, use Hillshade.
 
-`Toolbox > Spatial Analyst > Surface > Hillshade
+``Toolbox > Spatial Analyst > Surface > Hillshade
 Input Raster: elevation
 Output Raster: your geodatabase and name your file 'Hillshade'
 Select how much you want to exaggerate your z values and emphasize the hills here e.g. 10
