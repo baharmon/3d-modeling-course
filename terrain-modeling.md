@@ -192,7 +192,7 @@ In your Table of Contents, drag your Hillshade layer over your Elevation layer t
 
 Right click on `Hillshade > Display > Transparency > 75%`
 
-... _remainder of this section is under development_
+You should see a more defined and 3 Dimensional-looking topography.
 
 ## 3D terrain modeling
 In this section you will export
