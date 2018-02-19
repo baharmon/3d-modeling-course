@@ -161,6 +161,26 @@ Number of Bands: 1
 
 Delete older layers since you've now combined them as one mosaic. Right click on layer title in your layers box > Delete.
 
+### Convert Vertical 'Z' Data From Meters to Feet
+You've reprojected your dataset into feet, but the process above only converts x and y data. You need to convert your vertical data, 'z' data separately so your data is correct.
+
+Customize > Extensions > Ensure Spatial Analyst is checked
+
+``Toolbox > Spatial Analyst Tools > Map Algebra > Raster calculator``
+
+Find your output folder, name it `elevation`
+
+Convert your NED data to feet:
+
+``Double click NED data * 3.28084 > OK``
+
+``Right Click on elevation layer > Properties > Symbology > select a new range of color values to display your data.``
+
+Type `Percent Clip`
+
+``Display Tab > Bilinear Interpolation (for continuous data) > OK``
+
+
 ... _remainder of this section is under development_
 
 ## 3D terrain modeling
