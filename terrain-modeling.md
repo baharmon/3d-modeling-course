@@ -162,7 +162,7 @@ Number of Bands: 1
 Delete older layers since you've now combined them as one mosaic. Right click on layer title in your layers box > Delete.
 
 ### Convert Vertical 'Z' Data From Meters to Feet
-You've reprojected your dataset into feet, but the process above only converts x and y data. You need to convert your vertical data, 'z' data separately so your data is correct.
+You've reprojected your dataset into feet, but the process above only converts x and y data. You need to convert your vertical data, or 'z' data, separately so your data is correct.
 
 Customize > Extensions > Ensure Spatial Analyst is checked
 
@@ -176,12 +176,21 @@ Convert your NED data to feet.
 
 ![alt_text](https://github.com/baharmon/3d-modeling-course/blob/master/images/arcmap/Lecture%201/calcpic.PNG)
 
-``Right Click on elevation layer > Properties > Symbology > select a new range of color values to display your data.``
+``Right Click on elevation layer > Properties > Symbology > select a new range of color values to display your data.
+Type: `Percent Clip`
+Display Tab > Bilinear Interpolation (for continuous data) > OK``
 
-Type `Percent Clip`
+To add definition to your elevation, use Hillshade.
 
-``Display Tab > Bilinear Interpolation (for continuous data) > OK``
+`Toolbox > Spatial Analyst > Surface > Hillshade
+Input Raster: elevation
+Output Raster: your geodatabase and name your file 'Hillshade'
+Select how much you want to exaggerate your z values and emphasize the hills here e.g. 10
+OK``
 
+In your Table of Contents, drag your Hillshade layer over your Elevation layer to see the changes.
+
+Right click on `Hillshade > Display > Transparency > 75%`
 
 ... _remainder of this section is under development_
 
