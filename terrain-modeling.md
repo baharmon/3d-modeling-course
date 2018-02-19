@@ -170,9 +170,11 @@ Customize > Extensions > Ensure Spatial Analyst is checked
 
 Find your output folder, name it `elevation`
 
-Convert your NED data to feet:
+Convert your NED data to feet.
 
-``Double click NED data * 3.28084 > OK``
+``Double click NED data to add it to the formula line > * 3.28084 > OK``
+
+![alt_text](https://github.com/baharmon/3d-modeling-course/blob/master/images/arcmap/Lecture%201/calcpic.PNG)
 
 ``Right Click on elevation layer > Properties > Symbology > select a new range of color values to display your data.``
 
