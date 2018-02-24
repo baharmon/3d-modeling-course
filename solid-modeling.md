@@ -25,7 +25,13 @@ As you draw your polyline you can type in any known wall widths and lengths to k
 
 Make your wall solid.
 ```
-`Solid > Extrude Planar Curve > Straight`  or `_ExtrudeCrv` command. Select the curves you want to extrude > Enter. Ensure you extrude your solid in the correct direction by using your Front or Right view windows. Here use you Front window and ensure your wall is going up above the ground plane. Type in your height of the wall > Enter.
+`Solid > Extrude Planar Curve > Straight`  or `_ExtrudeCrv` command.
+ Select the curves you want to extrude > Enter.
+ Ensure you extrude your solid in the correct direction by using your
+ Front or Right view windows.
+ Here use you Front window and ensure your wall is
+ going up above the ground plane.
+ Type in your height of the wall > Enter.
 ```
 
 Your command line for this process may look like this:
