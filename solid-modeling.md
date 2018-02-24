@@ -72,8 +72,8 @@ Make your door solid.
 Either navigate to `Solid > Extrude Planar Curve > Straight`
 or type `_ExtrudeCrv` into the command line.
 In Front or Right view set the direction you want to extrude your door,
- in this case, UP.
- Type in your Door height > Enter.
+in this case, UP.
+Type in your Door height > Enter.
 ```
 
 Next, we will create your door by subtracting the Door solid from your Wall solid.
