@@ -16,12 +16,12 @@ and then model the data as
 
 ## File Setup
 
-### 1. Elevation data sources
+### Elevation data sources
 * [National Map Viewer](http://nationalmap.gov/viewer.html)
 * [US Interagency Elevation Inventory](https://coast.noaa.gov/inventory/)
 * [Open Topography](http://www.opentopography.org/)
 
-### 2. Data Acquisition
+### Data Acquisition
 
 __This lesson uses data from the National Map. You can find data from other
 sources, such as the links above.__
@@ -57,7 +57,7 @@ find your username._ Repeat this step for the second folder.
 
 Delete the original zipped folders.
 
-### 3.Creating a Geodatabase for Your Project
+### Creating a Geodatabase for Your Project
 
 Start ARC CATALOG.
 
@@ -78,7 +78,7 @@ Name your file `baton_rouge.gdb`
 In this section you will use the digital elevation file you gathered
 and import it into Arc Map to create elevation and slope maps.
 
-### 1. Import Data
+### Import Data
 
 Launch ARC MAP.
 
@@ -115,7 +115,7 @@ You will see your Toolbox pop up:
 
 Dock your Toolbox by clicking the Toolbox window and hovering over one of the blue buttons that appear to snap to your workspace.
 
-### 2. Reproject the Dataset
+### Reproject the Dataset
 ```
 Toolbox Data Management > Projections and Transformations > Raster > Project
 ```
@@ -140,7 +140,7 @@ Repeat these steps for other set of data.
 
 Once completed delete original 'ned' data you downloaded.
 
-### 3. Combine via Mosaic
+### Combine via Mosaic
 
 ```
 Toolbox > Raster > Raster Dataset > Mosaic To New Raster
@@ -164,7 +164,7 @@ Number of Bands: 1
 
 Delete older layers since you've now combined them as one mosaic. Right click on layer title in your layers box > Delete.
 
-### 4. Convert Vertical 'Z' Data From Meters to Feet
+### Convert Vertical 'Z' Data From Meters to Feet
 You've reprojected your dataset into feet, but the process above only converts x and y data. You need to convert your vertical data, or 'z' data, separately so your data is correct.
 
 Customize > Extensions > Ensure Spatial Analyst is checked
