@@ -1,15 +1,15 @@
 # Contents
 1. [**3d rendering**](#3d-rendering)
-    1. [Realtime rendering](#realtime-rendering)
+    1. [Environments](environments)
     2. [Lighting](lighting)
     3. [Materials](materials)
-    4. [Environments](environments)
+    4. [Realtime rendering + Animation](#realtime-rendering)
     5. [Rendering](rendering)
 
 # 3D rendering
 *Under development...*
 
-## Realtime rendering
+## Environments
 *Under development...*
 
 ## Lighting
@@ -18,7 +18,7 @@
 ## Materials
 *Under development...*
 
-## Environments
+## Realtime rendering
 *Under development...*
 
 ## Rendering

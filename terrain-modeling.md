@@ -1,8 +1,11 @@
 # Contents
-1. [**Terrain modeling**](#terrain-modeling)
+[**Terrain modeling**](#terrain-modeling)
+[File Setup](#File-Setup)
     1. [Elevation data sources](#elevation-data-sources)
-    2. [3D terrain modeling](#3d-terrain-modeling)
-    3. [2D terrain modeling](#2d-terrain-modeling)
+    2. [Data Acquisition](#data-Acquisition)
+    3. [Creating a Geodatabase](#Creating-a-Geodatabase)
+[**2D Terrain Modeling**](#2d-terrain-modeling)
+[**3D Terrain Modeling**](#3D-terrain-modeling)
 
 # Terrain modeling
 In this section you will learn how to
@@ -11,19 +14,15 @@ re-project and process the data in GIS,
 and then model the data as
 3D meshes and surfaces in Rhino.
 
-## Elevation data sources
+## File Setup
+
+### 1. Elevation data sources
 * [National Map Viewer](http://nationalmap.gov/viewer.html)
 * [US Interagency Elevation Inventory](https://coast.noaa.gov/inventory/)
 * [Open Topography](http://www.opentopography.org/)
 
+### 2. Data Acquisition
 
-## 2D terrain modeling
-In this section you will download
-a digital elevation file from USGS National Maps
-and import it into Arc Map to create elevation and slope maps.
-_instructions for lectures on January 24 and 26 under development_
-
-### Finding and Downloading Data
 __This lesson uses data from the National Map. You can find data from other
 sources, such as the links above.__
 
@@ -58,7 +57,7 @@ find your username._ Repeat this step for the second folder.
 
 Delete the original zipped folders.
 
-### Creating a Geodatabase for Your Project
+### 3.Creating a Geodatabase for Your Project
 
 Start ARC CATALOG.
 
@@ -75,7 +74,11 @@ Right click in or on new folder > New > File Geodatabase:
 
 Name your file `baton_rouge.gdb`
 
-### Import Data
+## 2D terrain modeling
+In this section you will use the digital elevation file you gathered
+and import it into Arc Map to create elevation and slope maps.
+
+### 1. Import Data
 
 Launch ARC MAP.
 
@@ -112,7 +115,7 @@ You will see your Toolbox pop up:
 
 Dock your Toolbox by clicking the Toolbox window and hovering over one of the blue buttons that appear to snap to your workspace.
 
-### Reproject the Dataset
+### 2. Reproject the Dataset
 ```
 Toolbox Data Management > Projections and Transformations > Raster > Project
 ```
@@ -137,7 +140,7 @@ Repeat these steps for other set of data.
 
 Once completed delete original 'ned' data you downloaded.
 
-### Combine via Mosaic
+### 3. Combine via Mosaic
 
 ```
 Toolbox > Raster > Raster Dataset > Mosaic To New Raster
@@ -161,7 +164,7 @@ Number of Bands: 1
 
 Delete older layers since you've now combined them as one mosaic. Right click on layer title in your layers box > Delete.
 
-### Convert Vertical 'Z' Data From Meters to Feet
+### 4. Convert Vertical 'Z' Data From Meters to Feet
 You've reprojected your dataset into feet, but the process above only converts x and y data. You need to convert your vertical data, or 'z' data, separately so your data is correct.
 
 Customize > Extensions > Ensure Spatial Analyst is checked
@@ -196,34 +199,10 @@ You should see a more defined and 3 Dimensional-looking topography.
 
 ## 3D terrain modeling
 In this section you will export
-a digital elevation model from GRASS GIS
+a digital elevation model from ARC GIS
 and import it into Rhino for 3D modeling and visualization.
 
-### Heightfield
-Start GRASS GIS in the `nc_spm_evolution` location
-and select the `terrain_analysis` mapset.
-
-Set your region to our study area with 3 meter resolution
-using the module
-[g.region](https://grass.osgeo.org/grass72/manuals/g.region.html)
-by specifying a reference raster map.
-```
-g.region raster=elevation_2016 res=3
-```
-
-Round the 2016 elevation raster map
-from floating point values to integers
-using the raster map calculator
-[r.mapcalc](https://grass.osgeo.org/grass72/manuals/r.mapcalc.html).
-```
-r.mapcalc expression="integer_elevation_2016 = round(elevation_2016)"
-```
-
-Export `integer_elevation_2016` to `.png` with
-[r.out.gdal](https://grass.osgeo.org/grass72/manuals/r.out.gdal.html).
-```
-r.out.gdal input=integer_elevation_2016@terrain_analysis output=elevation_2016.png format=PNG
-```
+### <title>
 
 Start Rhino5.
 
@@ -242,22 +221,6 @@ First corner of rectangle: 0,0
 Other corner or length: 450,450
 ```
 
-Create a layer called `surface` and make it the current layer.
-
-Run the command [Heightfield from Image](http://docs.mcneel.com/rhino/5/help/en-us/commands/heightfield.htm).
-Open bitmap `elevation.png`.
-Use the 450m x 450m rectangle to define
-the first and second corners of the heightfield.
-Set `Number of sample points: 30 x 30`,
-set `Height: 113 meters`,
-check `Set image as texture`,
-and select `Create object by: Surface from control points at sample locations`.
-```
-_Heightfield
-First Corner: 0,0
-Second corner or length: 450
-```
-
 Create contours with the [Contour](http://docs.mcneel.com/rhino/5/help/en-us/commands/contour.htm) command.
 ```
 _Contour
@@ -274,44 +237,11 @@ Save as `heightfield.3dm`.
 _SaveAs
 ```
 
-### Heightfield mesh
-In Rhino 5 open `heightfield.3dm`
-
-Turn off the `surface` layer.
-Create a layer called `mesh`
-and make it the current layer.
-
-Run the command [Heightfield from Image](http://docs.mcneel.com/rhino/5/help/en-us/commands/heightfield.htm).
-Open bitmap `elevation.png`.
-Use the 450m x 450m rectangle to define
-the first and second corners of the heightfield.
-Set `Number of sample points: 150 x 150`,
-set `Height: 113 meters`,
-check `Set image as texture`,
-and select `Create object by: Mesh with vertices at sample locations`.
-```
-_Heightfield
-First Corner: 0,0
-Second corner or length: 450
-```
-
-Save `heightfield.3dm`.
-```
-_Save
-```
-
 ### Point cloud patching
-Start GRASS GIS in the `nc_spm_evolution` location
-and select the `terrain_analysis` mapset.
-
-Set your region to our study area with 3 meter resolution
-using the module
-[g.region](https://grass.osgeo.org/grass72/manuals/g.region.html)
-by specifying a reference raster map.
+Start ARC GIS.
 Export `elevation_2016` as a comma delimited xyz point cloud.
 ```
-g.region raster=elevation_2016 res=3
-r.out.xyz input=elevation_2016 output=D:\rhino\elevation_3m.xyz separator=comma
+INSERT INSTRUCTIONS
 ```
 
 Start Rhino5.
@@ -320,8 +250,8 @@ Open the template `Large Objects - Meters.3dm`.
 
 Create a layer called `point_cloud` and make it the current layer.
 
-Import the comma-delimited 3m resolution xyz point cloud.
-For `Delimiters` select comma. Check `Create point cloud`.
+Import the elevation data.
+Check `Create point cloud`.
 Then zoom all viewports to the extent of the data.
 ```
 _Import
@@ -397,75 +327,7 @@ Save as `nc_spm_evolution_3m.3dm`.
 _SaveAs
 ```
 
-### Material and texture mapping
-Start GRASS GIS in the `nc_spm_evolution` location
-and select the `PERMANENT` mapset.
 
-![layer-raster-add](images/grass-gui/layer-raster-add.png)
-Add the raster map layer `naip_2014` with the latest orthophoto
-to your map display. Resize your map display so that is square and
-zoom to the selected map.
-Export this map with the
-`Save display to graphic file`
-![export](images/grass-gui/map-export.png)
-button. Save as `naip_2014.png`.
-
-
-Start Rhino5 and open `nc_spm_evolution_3m.3dm`.
-
-Select the polysurface model of the topography.
-In the `properties` tab click the `material` button.
-Set `Assign material by:` to `Object`.
-In the `Textures` section
-set `Color` to the file `naip_2014.png`
-Click the `Texture mapping` button and
-set `Type` to `Planar (UVW)`.
-Optionally turn on the sun with the command `sun`.
-```
-_SaveAs
-```
-
-### RhinoTerrain
-
-Start GRASS GIS in the `nc_spm_evolution` location
-and select the `terrain_analysis` mapset.
-
-Set your region to our study area with 1 meter resolution
-using the module
-[g.region](https://grass.osgeo.org/grass72/manuals/g.region.html)
-by specifying a reference raster map.
-Export `elevation_2016` as a georeferenced tif image (GeoTIFF).
-```
-g.region raster=elevation_2016 res=1
-r.out.gdal input=elevation_2016 output=elevation_2016.tif format=GTiff
-```
-
-Start Rhino5.
-
-Open the template `Large Objects - Meters.3dm`.
-
-Create a layer called `point_cloud` and make it the current layer.
-
-Use the RhinoTerrain plugin to import
-the elevation geotif raster as a point cloud.
-Alternatively you could import an xyz point cloud or a .las file.
-Run the RhinoTerrain command `Import elevation raster file`,
-select `elevation_2016.tif`,
-for `Choose target coordinate system` select `Use input data coordinate system`,
-for `Output type` select `Point cloud`.
-```
-RtImportElevation
-```
-
-Use the
-[Scale1D](http://docs.mcneel.com/rhino/5/help/en-us/commands/scale1d.htm)
-command to vertically exaggerate your elevation data by a factor of 3.
-```
-Scale1D
-Origin point: 0,0,0
-Scale factor: 3
-Scale direction: 0,0,1
-```
 
 Create a layer called `mesh` and make it the current layer.
 
