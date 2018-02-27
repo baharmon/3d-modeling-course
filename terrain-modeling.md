@@ -1,9 +1,9 @@
 # Contents
 [**Terrain modeling**](#terrain-modeling)
 [File Setup](#File-Setup)
-    1. [Elevation data sources](#Elevation-data-sources)
-    2. [Data Acquisition](#Data-Acquisition)
-    3. [Creating a Geodatabase](#Creating-a-Geodatabase)
+    1. [**Elevation data sources**](#Elevation-data-sources)
+    2. [**Data Acquisition**](#Data-Acquisition)
+    3. [**Creating a Geodatabase**](#Creating-a-Geodatabase)
 [**2D Terrain Modeling**](#2d-terrain-modeling)
 [**3D Terrain Modeling**](#3D-terrain-modeling)
 
