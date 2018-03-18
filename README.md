@@ -57,6 +57,7 @@ led by Prof. Desmond.
 1. [**Terrain modeling**](terrain-modeling.md)
     1. [Elevation data sources](terrain-modeling.md#elevation-data-sources)
     2. [3D terrain modeling](terrain-modeling.md#3d-terrain-modeling)
+    3. [Creating Contours from a Solid](terrain-modeling.md#creating-contours-from-a-solid)
 2. [**Solid modeling**](solid-modeling.md)
     1. [3D Drafting](solid-modeling.md#3d-drafting)
     2. [Extrusion](solid-modeling.md#extrusion)
