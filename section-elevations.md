@@ -22,7 +22,6 @@ a plane to cut your model with.
 ``Pick the Rectangle tool, select corner to corner
 Draw a Rectangle bigger than your house either in Front or Right/Left view, depending on
 where you would like to take your section.
-
 _Split
 select building > enter
 select cutting object (the plane you just drew) > enter
@@ -35,7 +34,8 @@ If your walls are split open, use `_Cap` command to close walls into solids.
 
 Draw a cutting plane through your building as above, using Rectangle, corner to corner.
 Make sure you draw it in Front or Right/Left view and make it larger than your building or model.
-``_boolean difference
+
+`_boolean difference
 select object
 select cutting plane``
 
