@@ -60,7 +60,7 @@ led by Prof. Desmond.
 2. [**Solid modeling**](solid-modeling.md)
     1. [3D Drafting](solid-modeling.md#3d-drafting)
     2. [Extrusion](solid-modeling.md#extrusion)
-    3. [Various 'How To's' for Frank Lloyd Wright Project Building](how-tos)
+    3. [Various 'How To's' for Frank Lloyd Wright Project Building](solid-modeling.md#how-tos)
 3. [**Surface modeling**](surface-modeling.md)
     1. [Manipulating Surfaces](Manipulating-Solid-Surfaces)
 4. [**3D rendering**](3d-rendering.md)

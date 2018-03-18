@@ -1,8 +1,8 @@
 # Contents
 1. [**Solid modeling**](#solid-modeling)
-    1. [3D Drafting](#3d-drafting)
-    2. [Extrusion](#extrusion)
-    3. [Various 'How To's' for Frank Lloyd Wright Project Building](#how-tos)
+    1. [**3D Drafting**](#3d-drafting)
+    2. [**Extrusion**](#extrusion)
+    3. [**Various 'How To's' for Frank Lloyd Wright Project Building**](#how-tos)
 
 # Solid modeling
 *Under development...*
