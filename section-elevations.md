@@ -50,5 +50,10 @@ section of your building in one viewport while having your model
 wholly in tact in another. You can quickly create and manipulate section/elevations
 to export for rendering and other uses without permanently changing your model.
 
-First, you will select which windows you wish to 'clip'. Navigate to your clipping plane properties
-visibility tab > clipping plane
+First, you will select which windows you wish to 'clip'. Find the Clipping Plane Properties
+under the `Visibility tab > Clipping Plane`. Select the viewport you wish to take your
+section or elevation view from.
+
+Draw your clipping plane in the appropriate viewport. Make sure it is larger than your building.
+You can drag the plane forward and backward, up and down and see your building appear and
+disappear behind the plane.
