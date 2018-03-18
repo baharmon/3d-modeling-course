@@ -12,7 +12,7 @@ The second method allows you to view a section of your model without changing th
 This process will permanently change the geometry of your structure. It is a destructive process.
 Before testing this method, make a copy of your 3D model so you have a backup.
 
-1. Split
+### 1. Split
 
 Ideally you will join all your walls/edges of your 3D model.
 
@@ -31,7 +31,7 @@ Delete plane.``
 You now have your structure, split into two solid sections.
 If your walls are split open, use `_Cap` command to close walls into solids.
 
-2. Boolean Difference
+### 2. Boolean Difference
 
 Draw a cutting plane through your building as above, using Rectangle, corner to corner.
 Make sure you draw it in Front or Right/Left view and make it larger than your building or model.
