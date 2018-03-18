@@ -205,7 +205,7 @@ and import it into Rhino for 3D modeling and visualization.
 
 **under development**
 
-##Creating Contours from a Solid
+## Creating Contours from a Solid
 This section is useful if you want to generate contours for a 3D form you have
 sculpted by hand or virtually through Rhino or a 3D modeling program.
 
