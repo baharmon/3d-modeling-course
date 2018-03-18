@@ -1,13 +1,12 @@
 # Contents
-
-[**Terrain modeling**](#terrain-modeling)
-[**File Setup**](#File-Setup)
+1. [**Terrain modeling**](#terrain-modeling)
+2. [**File Setup**](#File-Setup)
     1. [**Elevation data sources**](#Elevation-data-sources)
     2. [**Data Acquisition**](#Data-Acquisition)
     3. [**Creating a Geodatabase**](#Creating-a-Geodatabase)
-[**2D Terrain Modeling**](#2d-terrain-modeling)
-[**3D Terrain Modeling**](#3D-terrain-modeling)
-[**Creating Contours from a Solid**](#creating-contours-from-a-solid)
+3. [**2D Terrain Modeling**](#2d-terrain-modeling)
+4. [**3D Terrain Modeling**](#3D-terrain-modeling)
+5. [**Creating Contours from a Solid**](#creating-contours-from-a-solid)
 
 # Terrain modeling
 In this section you will learn how to
