@@ -19,10 +19,11 @@ Ideally you will join all your walls/edges of your 3D model.
 When you are ready to split your model into your sections, you'll start by drawing
 a plane to cut your model with.
 
-``Pick the Rectangle tool, select corner to corner
+Pick the `Rectangle tool, select corner to corner`
 Draw a Rectangle bigger than your house either in Front or Right/Left view, depending on
 where you would like to take your section.
-_Split
+
+``_Split
 select building > enter
 select cutting object (the plane you just drew) > enter
 Delete plane.``
