@@ -50,6 +50,7 @@ led by Prof. Desmond.
 **Tutorials** |
 [lecture.lsu.edu/](https://lecture.lsu.edu/)
 
+
 ---
 ## Contents
 
@@ -57,7 +58,11 @@ led by Prof. Desmond.
     1. [Elevation data sources](terrain-modeling.md#elevation-data-sources)
     2. [3D terrain modeling](terrain-modeling.md#3d-terrain-modeling)
 2. [**Solid modeling**](solid-modeling.md)
+    1. [3D Drafting](#3d-drafting)
+    2. [Extrusion](#extrusion)
+    3. [Various 'How To's' for Frank Lloyd Wright Project Building](#how-tos)
 3. [**Surface modeling**](surface-modeling.md)
+    1. [Manipulating Surfaces](#Manipulating-Solid-Surfaces)
 4. [**3D rendering**](3d-rendering.md)
 5. [**Section-elevations**](section-elevations.md)
 6. [**3D printing**](3d-printing.md)
