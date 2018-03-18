@@ -6,6 +6,7 @@
     3. [**Creating a Geodatabase**](#Creating-a-Geodatabase)
 [**2D Terrain Modeling**](#2d-terrain-modeling)
 [**3D Terrain Modeling**](#3D-terrain-modeling)
+[**Creating Contours from a Solid**](#creating-contours-from-a-solid)
 
 # Terrain modeling
 In this section you will learn how to
@@ -19,7 +20,7 @@ and then model the data as
 ### Elevation data sources
 * [National Map Viewer](http://nationalmap.gov/viewer.html)
 * [US Interagency Elevation Inventory](https://coast.noaa.gov/inventory/)
-* [Open Topography](http://www.opentopography.org/)
+* [Open Topography](http://opentopo.sdsc.edu/datasets)
 
 ### Data Acquisition
 
@@ -202,172 +203,29 @@ In this section you will export
 a digital elevation model from ARC GIS
 and import it into Rhino for 3D modeling and visualization.
 
-### <title>
+**under development**
 
-Start Rhino5.
+##Creating Contours from a Solid
+This section is useful if you want to generate contours for a 3D form you have
+sculpted by hand or virtually through Rhino or a 3D modeling program.
 
-Open the template `Large Objects - Meters.3dm`.
+Open your object in Rhino.
+Select object
 
-Create a layer called `region` and make it the current layer.
+  ``rhino terrain > cartography > create contour curves``
 
-Turn on `Grid Snap` and `Ortho`.
-Create a 450m x 450m rectangle the size of our study landscape
-with the corner-to-corner
-[Rectangle](http://docs.mcneel.com/rhino/5/help/en-us/commands/rectangle.htm)
-command.
-```
-_Rectangle
-First corner of rectangle: 0,0
-Other corner or length: 450,450
-```
+You can manipulate the contour interval by clicking the link in the dialogue box and
+assign a new value.
 
-Create contours with the [Contour](http://docs.mcneel.com/rhino/5/help/en-us/commands/contour.htm) command.
-```
-_Contour
-Select objects for contours
-_Enter
-Contour plane base point: 0,0,0
-Direction perpendicular to contour planes: 0,0,1
-Distance between contours: 1.00
-_Enter
-```
+For example:
 
-Save as `heightfield.3dm`.
-```
-_SaveAs
-```
+  Click the number by `First interval = ` and change to 1
+	Second interval = 5
+	Third interval = 25
 
-### Point cloud patching
-Start ARC GIS.
-Export `elevation_2016` as a comma delimited xyz point cloud.
-```
-INSERT INSTRUCTIONS
-```
+You will see your contours (in ft) added in the layer panel.
 
-Start Rhino5.
+Add annotations to your contours by toggling to the drop down Rhino Terrain:
 
-Open the template `Large Objects - Meters.3dm`.
-
-Create a layer called `point_cloud` and make it the current layer.
-
-Import the elevation data.
-Check `Create point cloud`.
-Then zoom all viewports to the extent of the data.
-```
-_Import
-Zoom
-All
-Extents
-```
-
-Use the
-[Scale1D](http://docs.mcneel.com/rhino/5/help/en-us/commands/scale1d.htm)
-command to vertically exaggerate your elevation data by a factor of 3.
-```
-Scale1D
-Origin point: 0,0,0
-Scale factor: 3
-Scale direction: 0,0,1
-```
-
-Create a layer called `plane` and make it the current layer.
-
-Create a corner to corner rectangular plane
-with the [Plane](http://docs.mcneel.com/rhino/5/help/en-us/commands/plane.htm)
-command.
-Designate opposite corners of the point cloud.
-Then use the Gumball to move the plane beneath the lowest point.
-```
-_Plane
-```
-
-Create a layer called `surface` and make it the current layer.
-
-Use the [Patch](http://docs.mcneel.com/rhino/5/help/en-us/commands/patch.htm)
-command to create a NURBS surface.
-Set `Sample point spacing` to `1.0`,
-set `Surface U spans` to `150`,
-set `Surface V spans` to `150`,
-and set the `Starting surface` to the plane.
-```
-Patch
-```
-
-Hide or delete the point cloud layer.
-
-Set all viewports to `Rendered` mode.
-
-Make the plane larger with the
-[Scale2D](http://docs.mcneel.com/rhino/5/help/en-us/commands/scale2d.htm)
-command
-```
-Command: Scale2D
-Origin point
-Scale factor: 1.25
-```
-
-Create a layer called `solid` and make it the current layer.
-
-Use the
-[Extrude surface to boundary](http://docs.mcneel.com/rhino/5/help/en-us/commands/extrudesrf.htm)
-command to extrude the topographic NURBS surface to the plane
-to create a solid model with a base.
-Select the plane as the boundary surface.
-```
-_ExtrudeSrf
-_Solid=_Yes
-_ToBoundary
-Select a boundary surface
-```
-
-Hide or delete the plane layer.
-
-Save as `nc_spm_evolution_3m.3dm`.
-```
-_SaveAs
-```
-
-
-
-Create a layer called `mesh` and make it the current layer.
-
-Create a triangulated mesh using the RhinoTerrain command `Create Terrain Mesh`.
-Select the point cloud when prompted `Select objects for triangulation`.
-Accept the previewed result.
-```
-RtMeshTerrainCreate
-_Accept
-```
-
-Turn off or delete the `point_cloud` layer.
-Set viewports to `Rendered` mode.
-
-Create a 50m base for the terrain model
-using the RhinoTerrain command `Create Terrain Base`
-```
-RtMeshTerrainBase
-Select mesh (BaseHeightStyle=Relative  BaseHeight=50)
-_Enter
-```
-
-Optionally use the RhinoTerrain `Create contour curves` command
-to compute contours.  
-```
-RtCartographyContoursCurvesCreate
-Select mesh
-_Enter
-Select mesh (FirstInterval=1  SecondInterval=10  ThirdInterval=0  FourthInterval=0  ContourSmoothness=0  Complete)
-_Complete
-```
-
-Turn on the `Sun`,
-set `Date and time` to `Now`,
-and set `Location` to `Here`.
-```
-Sun
-```
-
-Save as `rhinoterrain.3dm`
-```
-_SaveAs
-```
+	``Rhino Terrain > Cartography> Annotate contour curves
+	select layer to annotate > Dimension - set to foot-inch architectural``
