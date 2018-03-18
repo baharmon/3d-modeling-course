@@ -36,7 +36,7 @@ If your walls are split open, use `_Cap` command to close walls into solids.
 Draw a cutting plane through your building as above, using Rectangle, corner to corner.
 Make sure you draw it in Front or Right/Left view and make it larger than your building or model.
 
-`_boolean difference
+``_boolean difference
 select object
 select cutting plane``
 
