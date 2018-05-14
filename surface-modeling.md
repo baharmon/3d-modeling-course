@@ -1,6 +1,6 @@
 # Contents
 1. [**Surface modeling**](#surface-modeling)
-    1. [Manipulating Surfaces](#Manipulating-Solid-Surfaces)
+    1. [**Manipulating Surfaces**](#Manipulating-Solid-Surfaces)
 
 
 # Surface modeling
@@ -24,5 +24,3 @@ You should now have a solid but be able to select an individual surface to manip
 
 `Control-shift-click` to select the surface you just extracted.
 `Click (on the gumball) > Control > Drag` to manipulate the surface with the gumball tool.
-
- 
