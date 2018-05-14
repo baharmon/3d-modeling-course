@@ -22,6 +22,7 @@ Bailleres House 1952  | Hennesey House 1956
 Upload digital copies of your finished work to the class network drive
 at `\\desn-knox.lsu.edu\Landscape-Classes` on Windows
 or `smb://desn-knox.lsu.edu/Landscape-Classes` on Mac.
+
 Please upload your *.3dm* Rhino models,
 *.stl* stereolithography models,
 *.png* 3D renderings,
@@ -40,8 +41,6 @@ The renderings should include:
 * 1 sun study
 * 4 section-elevations
 * 4 perspectives.
-
-**Due:**
 
 ## 3D Prints
 Each group will make a beautiful 3D printed model
@@ -65,3 +64,7 @@ a map,
 plots of your 3D renderings,
 your 3D prints, and
 information about the house.
+
+Find the class network drive at
+`\\desn-knox.lsu.edu\Landscape-Classes` on Windows
+or `smb://desn-knox.lsu.edu/Landscape-Classes` on Mac.
