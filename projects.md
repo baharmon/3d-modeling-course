@@ -13,7 +13,7 @@ Brauner House, Usonia | Morris House 1945
 
 Newman House, Usonia   | Garrison House, Usonia
 :-------------------------:|:-------------------------:
-<img src="images/wright/newman_peterson.png" height="250"> | <img src="images/wright/garrison_andrewwright.png" height="250">
+<img src="images/wright/Newman_peterson.png" height="250"> | <img src="images/wright/garrison_andrewwright.png" height="250">
 
 Bailleres House  | Hennessy House
 :-------------------------:|:-------------------------:
