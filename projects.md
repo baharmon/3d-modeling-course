@@ -7,11 +7,9 @@ Hargrove House, Kaufman Boulder House, Bailleres House,
 Hennesey House, or Stillman House -
 and its landscape.
 
-<p align="center">
 Brauner House, Usonia | Morris House 1945
 :-------------------------:|:-------------------------:
 <img src="images/wright/brauner_shah.png" height="250"> | <img src="images/wright/Morris_rendering.jpg" height="250">
-</p>
 
 Newman House, Usonia   | Garrison House, Usonia
 :-------------------------:|:-------------------------:
