@@ -9,7 +9,7 @@ and its landscape.
 
 Brauner House, Usonia | Morris House 1945
 :-------------------------:|:-------------------------:
-<img src="images/wright/brauner_shah.png" height="400"> | <img src="images/wright/Morris_rendering.jpg" height="400">
+<img src="images/wright/brauner_shah.png" height="250"> | <img src="images/wright/Morris_rendering.jpg" height="250">
 
 Newman House, Usonia   | Garrison House, Usonia
 :-------------------------:|:-------------------------:
