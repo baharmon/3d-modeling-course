@@ -9,15 +9,15 @@ and its landscape.
 
 Jester House 1938 | Morris House 1945
 :-------------------------:|:-------------------------:
-<img src="images/wright/jester.jpg" height="250"> | <img src="images/wright/morris_landscape.jpg" height="250">
+<img src="images/wright/jester.jpg" height="250"> | <img src="images/wright/morris_rendering.jpg" height="250">
 
 Hargove House 1950 | Boulder House 1950
 :-------------------------:|:-------------------------:
 <img src="images/wright/hargrove_1.jpg" height="250"> | <img src="images/wright/boulder.jpg" height="250">
 
-Bailleres House 1952  | Hennesey House 1956
+Bailleres House   | Garrison House
 :-------------------------:|:-------------------------:
-<img src="images/wright/bailleres_1.jpg" height="250"> | <img src="images/wright/hennesey.jpg" height="250">
+<img src="images/wright/bailleres_rendering" height="250"> | <img src="images/wright/garrison_andrewwright.jpg" height="250">
 
 Upload digital copies of your finished work to the class network drive
 at `\\desn-knox.lsu.edu\Landscape-Classes` on Windows
