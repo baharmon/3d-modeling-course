@@ -9,15 +9,17 @@ and its landscape.
 
 Jester House 1938 | Morris House 1945
 :-------------------------:|:-------------------------:
-<img src="images/wright/jester.jpg" height="250"> | <img src="images/wright/morris_rendering.jpg" height="250">
+<img src="images/wright/jester.jpg" height="250"> | <img src="images/wright/Morris_rendering.jpg" height="250">
+
+Newman House, Usonia   | Garrison House, Usonia
+:-------------------------:|:-------------------------:
+<img src="images/wright/newman_Peterson.png" height="250"> | <img src="images/wright/garrison_andrewwright.png" height="250">
 
 Bailleres House  | Hennessy House
 :-------------------------:|:-------------------------:
 <img src="images/wright/bailleres_rendering.jpg" height="250"> | <img src="images/wright/hennesey_rendering.jpg" height="250">
 
-Newman House, Usonia   | Garrison House, Usonia
-:-------------------------:|:-------------------------:
-<img src="images/wright/newman_peterson.png" height="250"> | <img src="images/wright/garrison_andrewwright.png" height="250">
+
 
 Upload digital copies of your finished work to the class network drive
 at `\\desn-knox.lsu.edu\Landscape-Classes` on Windows
