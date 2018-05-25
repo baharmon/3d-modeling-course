@@ -9,11 +9,11 @@ and its landscape.
 
 Brauner House, Usonia | Morris House 1945
 :-------------------------:|:-------------------------:
-<img src="images/wright/brauner_shah.jpg" height="250"> | <img src="images/wright/Morris_rendering.jpg" height="250">
+<img src="images/wright/brauner_shah.png" height="250"> | <img src="images/wright/Morris_rendering.jpg" height="250">
 
 Newman House, Usonia   | Garrison House, Usonia
 :-------------------------:|:-------------------------:
-<img src="images/wright/newman_Peterson.png" height="250"> | <img src="images/wright/garrison_andrewwright.png" height="250">
+<img src="images/wright/newman_peterson.png" height="250"> | <img src="images/wright/garrison_andrewwright.png" height="250">
 
 Bailleres House  | Hennessy House
 :-------------------------:|:-------------------------:
