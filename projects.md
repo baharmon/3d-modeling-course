@@ -11,9 +11,9 @@ Jester House 1938 | Morris House 1945
 :-------------------------:|:-------------------------:
 <img src="images/wright/jester.jpg" height="250"> | <img src="images/wright/morris_rendering.jpg" height="250">
 
-Bailleres House  | Boulder House 1950
+Bailleres House  | Hennessy House
 :-------------------------:|:-------------------------:
-<img src="images/wright/bailleres_rendering.jpg" height="250"> | <img src="images/wright/boulder.jpg" height="250">
+<img src="images/wright/bailleres_rendering.jpg" height="250"> | <img src="images/wright/hennesey_rendering.jpg" height="250">
 
 Newman House, Usonia   | Garrison House, Usonia
 :-------------------------:|:-------------------------:
